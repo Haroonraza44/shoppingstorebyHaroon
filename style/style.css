@@ -655,6 +655,9 @@ font-family: 'Signika', sans-serif;
        max-height: max-content;
        font-optical-sizing: auto;
        font-style: normal;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
        border-radius: 2% 5% 20% 10%;
        position: relative;
        box-shadow: var(--shadow-dark);
@@ -677,7 +680,7 @@ font-family: 'Signika', sans-serif;
    }
 
    .category .product-img {
-       height: 40%;
+       height: 35%;
        max-height: 28rem;
        max-width: 28rem;
    }
