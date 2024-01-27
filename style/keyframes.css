@@ -1,0 +1,379 @@
+/*Keyframes*/
+
+
+@keyframes bgslide {
+    0% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs3.jpg);
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    9.99% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs3.jpg);
+        background-position-y: bottom;
+        background-position-x: right;
+    }
+
+
+    10% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs6.jpg);
+        background-position-y: center;
+        background-position-x: center;
+
+    }
+
+    19.99% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs6.jpg);
+        background-position-y: bottom;
+        background-position-x: right;
+    }
+
+    20% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs8.jpg);
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    29.99% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs8.jpg);
+        background-position-y: bottom;
+        background-position-x: left;
+    }
+
+    30% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs5.jpg);
+        background-position-y: top;
+    }
+
+    39.99% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs5.jpg);
+        background-position-y: center;
+    }
+
+    40% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs4.jpg);
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    49.99% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs4.jpg);
+        background-position-y: bottom;
+        background-position-x: right;
+    }
+
+    50% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs10.jpg);
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    59.99% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs10.jpg);
+        background-position-y: top;
+        background-position-x: right;
+    }
+
+    60% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs9.jpg);
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    69.99% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs9.jpg);
+        background-position-y: top;
+        background-position-x: right;
+    }
+
+    70% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs7.jpg);
+        background-position-y: bottom;
+        background-position-x: center;
+    }
+
+    79.99% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs7.jpg);
+        background-position-y: center;
+        background-position-x: left;
+    }
+
+    80% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs11.jpg);
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    89.99% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bgs11.jpg);
+        background-position-y: bottom;
+        background-position-x: right;
+
+    }
+
+    90% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bg-new3.jpg);
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    100% {
+        background-image: linear-gradient(to right bottom, rgba(7, 58,76, .6), rgba(6, 214, 160, .6)), url(../images/bg/bg-new3.jpg);
+        background-position-y: bottom;
+        background-position-x: right;
+    }
+
+}
+
+@keyframes discount {
+    0% {
+        transform: rotate(-10deg);
+
+    }
+
+    50% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(10deg);
+
+    }
+}
+
+
+@keyframes sale {
+    0% {
+        transform: rotate(-20deg);
+
+    }
+
+    50% {
+        transform: rotate(20deg);
+
+    }
+
+    100% {
+        transform: rotate(-20deg);
+
+    }
+}
+
+@keyframes shop-now {
+    0% {
+        transform: scale(1);
+
+    }
+
+
+    50% {
+        transform: scale(1.01);
+
+    }
+    
+    100% {
+        transform: scale(1);
+
+    }
+}
+
+
+@keyframes feature-slider-1 {
+    0% {
+        opacity: 0;
+        transform: translateX(-500rem);
+    }
+
+    0.5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    19% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    20% {
+        opacity: 0;
+        transform: translateX(500rem);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-500rem);
+    }
+}
+
+@keyframes feature-slider-2 {
+    0% {
+        transform: translateX(-500rem);
+        opacity: 0;
+    }
+
+    19% {
+        opacity: 0;
+        transform: translateX(-500rem);
+    }
+
+    20% {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+
+    39% {
+        transform: translateX(0rem);
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+        transform: translateX(1000rem);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-500rem);
+    }
+}
+
+
+@keyframes feature-slider-3 {
+    0% {
+        transform: translateX(-500rem);
+    }
+
+    39% {
+        transform: translateX(-500rem);
+    }
+
+    41% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    58% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    60% {
+        opacity: 0;
+        transform: translateX(500rem);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(500rem);
+    }
+}
+
+@keyframes feature-slider-4 {
+    0% {
+        transform: translateX(-500rem);
+    }
+
+    58% {
+        transform: translateX(-500rem);
+    }
+
+    61% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    79% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    80% {
+        opacity: 0;
+        transform: translateX(500rem);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(500rem);
+    }
+}
+
+@keyframes feature-slider-5 {
+    0% {
+        transform: translateX(-500rem);
+    }
+
+    78% {
+        opacity: 0;
+        transform: translateX(-500rem);
+    }
+
+    80% {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+
+    98% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(500rem);
+    }
+}
+
+@keyframes login-slider {
+    0% {
+        transform: translate(200rem);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translate(0rem);
+        opacity: .5;
+    }
+
+    100% {
+        transform: translate(0rem);
+        opacity: 1;
+    }
+
+}
+@keyframes biggestsale {
+    0%{
+        transform: skewx(0deg);
+    }
+    33%{
+        transform: skewX(20deg);
+
+    }
+    66%{
+        transform: skewX(-20deg);
+
+    }
+
+    100%{
+        transform: skewx(0deg);
+
+
+    }
+    
+}
+@keyframes sale-heading-slider{
+
+    0%{
+        width: 1%;
+        opacity: 0;
+    }
+    50%{
+        opacity: .7;
+    }
+    100%{
+        width: 100%;
+        opacity: .4;
+    }
+    
+}
