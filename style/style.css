@@ -652,8 +652,7 @@ font-family: 'Signika', sans-serif;
        padding: 2rem;
        font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
        text-align: center;
-       max-height: 40rem;
-       min-height: 36rem;
+       max-height: max-content;
        font-optical-sizing: auto;
        font-style: normal;
        border-radius: 2% 5% 20% 10%;
@@ -754,7 +753,7 @@ font-family: 'Signika', sans-serif;
        margin: 5px;
        font-size: 1.6rem;
        color: rgba(255, 155, 0, .5);
-       margin-bottom: 3rem;
+       margin-bottom: 2rem;
    }
 
    .category .product p i.last-star {
@@ -767,7 +766,8 @@ font-family: 'Signika', sans-serif;
    }
 
    .category .add-to-cart {
-       padding: 1rem 2rem;
+       padding: 1rem 1.5rem;
+       font-size: 1.2rem;
        border: 1px solid rgb(40, 180, 133);
        border-radius: 10rem;
        transition: all .1s;
@@ -820,8 +820,9 @@ font-family: 'Signika', sans-serif;
        background: var(--color1);
        color: var(--color9);
        font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 1.7rem;
        transition: all .1s;
-       padding: 1rem 3rem;
+       padding: 1rem 2rem;
        text-decoration: none;
        box-shadow: 0 2px 1rem rgba(0, 0, 0, .3);
 
@@ -900,6 +901,12 @@ font-family: 'Signika', sans-serif;
            height: 2.5rem;
            font-size: 1.5rem;
        }
+       .featured-content .featured-product a#shop-now-featured {
+        font-size: 1.4rem;
+        padding: 1rem 1.4rem;
+      
+ 
+    }
    }
 
    @media screen and (max-width: 37.5em) {
