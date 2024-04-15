@@ -103,26 +103,17 @@ font-family: 'Signika', sans-serif;
        position: relative;
    }
 
-   .upperheader>h3 {
-       margin-top: 3rem;
-       font-family: "Russo One", sans-serif;
-       margin-bottom: 0;
-       margin-left: 4rem;
-       color: var(--color1);
-       font-size: 3rem;
-       color: #113b4c;
-
-   }
-
-   .upperheader h3 span {
-       color: var(--color4);
-   }
-
    .upperheader #main-nav {
        padding: 1rem;
-       display: flex;
-       justify-content: space-around;
-       align-items: center;
+       display: grid;
+       grid-template-columns: 1fr 4fr 1fr;
+   }
+   .upperheader #main-nav #div-logo {
+    height: 5.5rem;
+   }
+
+   .upperheader #main-nav #div-logo img {
+    height: 100%;
    }
 
    .upperheader #main-nav ul {
@@ -130,12 +121,12 @@ font-family: 'Signika', sans-serif;
        height: 100%;
        width: 100%;
        display: flex;
-       flex-wrap: wrap;
 
    }
 
    .upperheader nav ul li {
        list-style: none;
+       display: flex;
    }
 
    .upperheader #main-nav ul li a {
@@ -144,7 +135,7 @@ font-family: 'Signika', sans-serif;
        width: 100%;
        font-size: 2rem;
        color: var(--color4);
-       padding: 1rem 1.3rem;
+       padding: 1rem;
        margin: 0 1rem;
        position: relative;
        transition: all .3s ease-in;
@@ -209,7 +200,6 @@ font-family: 'Signika', sans-serif;
        justify-content: space-around;
        padding: 1rem 1.3rem;
        margin: 0 1rem;
-       margin-right: 5rem;
        position: relative;
        transition: all .3s;
    }
